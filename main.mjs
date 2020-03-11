@@ -16,7 +16,7 @@ const train = _ => {
   const iterations = 2000 //change this number to see different results
   console.log('Training initialized')
   for (let i = 0; i <= iterations; i++) {
-    if (i % 1000 === 0) console.log('Iteration', ""+i)
+    if (i % 100 === 0) console.log('Iteration', ""+i)
     neuron.train(input, output)
   }
 }
